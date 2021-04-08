@@ -1,4 +1,42 @@
-# loan-default-prediction
-Lending Club Data Default Prediction
-Peer-to-peer lending is a relatively new form of credit that focuses on financing borrowers from their peers (small lenders) and individuals who earn interest on the money they lend. Borrowers can apply through an online platform for personal loans, often unsecured, that are financed by one or more peer investors. The P2P lender is not an actual lender, but rather an intermediary that facilitates the lending process and provides the platform. These platforms have developed in US, UK, Australia and other financial markets, but the US remains the leader in the peer-to-peer lending space. Peer-to-peer lending may not have begun in the US, but it has quickly spread to dominate the personal loan market and is slowly making its way into other markets. Lending Club, a San Francisco-based fintech company, works to facilitate peer-to-peer loans through their online lending platform. Started in 2007, their website allows individuals to publicly post loan applications, which other users can then browse and choose to fund. Their website makes its historical records publicly available, leading to the interesting question: can we determine an accurate way of using loan characteristics to predict which loans will be paid back in full and which will default?  
-This project aims to develop a robust module for predicting your chances of loan approval. The features used for prediction are considered to be available at the time of loan origination and thus do not leak any information from the future. The prediction model has been built separately for Individual Applicants and Joint Applicants with a maximum accuracy. Few highly correlated features such as Grade, Sub Grade, Interest Rate are estimated using the provided FICO score by the applicant. 
+# Easy Lend
+
+### Requirements-
+1) Python
+2) 
+3) 
+### Problem Statement-
+Loan Approval Systems are data biased and service is not available everywhere and requires lot of time investment.
+
+### What it does
+The Loan Approval System takes the application of loans submitted bu various people and predicts the chances of the loan getting approved without any bias.
+
+There are three ways to access it: a. Through a Web Application b. Through a WhatsApp Chat Bot c. Through Direct SMS
+
+In the App, it provides an in-depth analysis of the different factors such as income, past experience, and many others. It will provide a detailed report through which a person can have a better chance next time.
+
+For people with less technical knowledge or no internet also, we have the WhatsApp Chat Bot method and the Direct SMS method respectively. The chances of approval is sent after a thorough analysis without any bias to the user on the respective channel through which he/she applied.
+
+### How we built it
+1) Extracted Loans and Demographics Dataset from Finastra Cloud Service.
+2) Trained different models on the dataset to detect and reduce both Algorithmic and Physical Biases.
+3) Selected the best model based on F1 Score and Roc-Auc Curves of different models.
+4) Integrated the Random Forest model on three gateways: Web App, SMS Bot, and WhatsApp Bot. ## Challenges we ran into
+
+a) Data Science :
+1) Selecting the best models from the six models we trained on Finastra’s Dataset.
+2) Integrating the visualization of the result from the model on WebApp.
+
+b)Direct SMS and WhatsApp Bot :
+1) Sending the text message back from the Flask server to the SMS bot running on NodeJS code after making loan approval predictions.
+
+2) Integrating the full-fledged WhatsApp bot with the backend server to get the predictions.
+
+### Made by
+1. [Akshay Singhal](https://www.github.com/akshsinghal "Akshay Singhal")
+2. [Punit Lohia](https://www.github.com/punitlohia "Punit Lohia")
+3. [Saksham Pandey](https://www.github.com/Saksham-510 "Saksham Pandey")
+4. [Ketan Bansal](https://www.github.com/bansalketan "Ketan Bansal")
+5. [Ashlesha Kumar](https://www.github.com/thecodeeagle "Ashlesha Kumar")
+6. [Ashutosh Sharma]
+
+Credits - Kunal Goyal for template of WebApp.
