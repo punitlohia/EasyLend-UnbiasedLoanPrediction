@@ -1,9 +1,5 @@
 # Easy Lend
 
-### Requirements-
-1) Python
-2) 
-3) 
 ### Problem Statement-
 Loan Approval Systems are data biased and service is not available everywhere and requires lot of time investment.
 
