@@ -33,6 +33,6 @@ b)Direct SMS and WhatsApp Bot :
 3. [Saksham Pandey](https://www.github.com/Saksham-510 "Saksham Pandey")
 4. [Ketan Bansal](https://www.github.com/bansalketan "Ketan Bansal")
 5. [Ashlesha Kumar](https://www.github.com/thecodeeagle "Ashlesha Kumar")
-6. [Ashutosh Sharma]
+6. [Ashutosh Sharma](https://www.github.com/ashucrma "Ashutosh Sharma")
 
 Credits - Kunal Goyal for template of WebApp.
